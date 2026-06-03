@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Circle-icons-rocket.svg/960px-Circle-icons-rocket.svg.png">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="kosmo"></div>
+
+    <section class="login-section">
+        <div class="login-box">
+            <h2>Zaloguj się do kosmosu</h2>
+            <form class="login-form">
+                <div class="input-box">
+                    <input type="text" id="login-username" placeholder="Nazwa użytkownika" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="login-password" placeholder="Hasło" required>
+                </div>
+                <button type="submit">Zaloguj się</button>
+            </form>
+            <p style="margin-top:20px; color:white;">
+                Nie masz konta? <a href="register.html" style="color:#41BCE6;">Zarejestruj się</a>
+            </p>
+        </div>
+    </section>
+
+    <script src="auth.js"></script>
+</body>
+
+</html>
